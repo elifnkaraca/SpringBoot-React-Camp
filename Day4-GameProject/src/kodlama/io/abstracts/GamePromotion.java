@@ -1,9 +1,11 @@
 package kodlama.io.abstracts;
 
+import kodlama.io.models.Game;
+
 public interface GamePromotion {
 	
-	void addPromotion();
-	void removePromotion();
-	void updatePromotion();
+	boolean addPromotion(Game game);
+	void removePromotion(Game game);
+	void updatePromotion(Game game);
 
 }
